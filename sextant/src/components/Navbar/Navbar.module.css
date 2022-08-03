@@ -1,0 +1,102 @@
+.Navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavTag {
+    height: 80px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.NavTag ul{
+    display: flex;
+    list-style: none;
+}
+
+.NavTag ul li {
+    margin: 0px 5px;
+}
+
+
+.Logo {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.NavLink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.NavLinkActive {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #1b1b1b;
+    background: #fff;
+}
+
+.NavLink:hover {
+    color: #1b1b1b;
+    background: #fff;
+}
+
+.MenuButton {
+    display: none;
+}
+
+@media (max-width: 940px) {
+    .NavTag ul {
+        position: fixed;
+        top: 80px;
+        left: -300%;
+        margin-top: 0px;
+        background: #1b1b1b;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .NavTag ul li {
+        margin: 40px 0px;
+    }
+
+    .NavLink{
+        font-size: 25px;
+        display: block;
+    }
+    .NavLinkActive{
+        font-size: 25px;
+        color: cyan;
+        background: none;
+        display: block;
+    }
+    .NavLink:hover{
+        color: cyan;
+        background: none;
+    }
+    .MenuButton {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+
+}
