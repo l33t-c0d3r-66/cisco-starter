@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './components/Banner/Banner';
 import Exhibit from './components/Exhibits/Exhibits';
 import IPDetails from './components/IPDetails/IPDetails';
+import PacketLatencyDisplay from './components/PacketLatencyDisplay/PacketLatencyDisplay';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <Exhibit name="User's IPv6 Address">
         <IPDetails url='https://api64.ipify.org?format=json' />
       </Exhibit>
+      <Exhibit name="Pylon Packet Latency Display">
+        <PacketLatencyDisplay />
+      </Exhibit>
+
 
     </div>
 
