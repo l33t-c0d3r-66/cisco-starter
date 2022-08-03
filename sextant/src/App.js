@@ -1,12 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Wrapper from './components/Wrapper/Wrapper';
+
+import Banner from './components/Banner/Banner';
+import Exhibit from './components/Exhibits/Exhibits';
 
 function App() {
   return (
-    <Wrapper >
-      <Navbar />
-    </Wrapper>
+    <div className="App">
+      <Banner bannerText="SEXTANT" />
+      <Exhibit name="This is an Exhibit 1 Heading">This is Exhibit Content</Exhibit>
+
+    </div>
+
   );
 }
 
