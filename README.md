@@ -29,3 +29,4 @@
 <li> https://www.npmjs.com/package/websocket
 <li> https://en.wikipedia.org/wiki/Unix_time
 <li> https://blog.stackpath.com/latency/
+<li> https://www.scrum.org/resources/what-is-a-sprint-review
