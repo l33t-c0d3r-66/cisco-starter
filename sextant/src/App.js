@@ -9,17 +9,17 @@ function App() {
   return (
     <div className="App">
       <Banner bannerText="SEXTANT" />
-      <Exhibit name="User's IPv4 Address">
-        <IPDetails url='https://api.ipify.org?format=json' />
-      </Exhibit>
-      <Exhibit name="User's IPv6 Address">
-        <IPDetails url='https://api64.ipify.org?format=json' />
-      </Exhibit>
-      <Exhibit name="Pylon Packet Latency Display">
-        <PacketLatencyDisplay />
-      </Exhibit>
-
-
+      <div className="Container">
+        <Exhibit name="User's IPv4 Address">
+          <IPDetails url='https://api.ipify.org?format=json' />
+        </Exhibit>
+        <Exhibit name="User's IPv6 Address">
+          <IPDetails url='https://api64.ipify.org?format=json' />
+        </Exhibit>
+        <Exhibit name="Pylon Packet Latency Display">
+          <PacketLatencyDisplay />
+        </Exhibit>
+      </div>
     </div>
 
   );

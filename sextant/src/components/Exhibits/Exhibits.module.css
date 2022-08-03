@@ -1,27 +1,27 @@
 .Exhibit {
     float: left;
-    margin: 0.5vw;
-    padding: 0vw 2vw 0vw 2vw;
+    margin: 5px;
+    padding: 0px 5px;
     text-align: center;
-    color: #C499BA;
-    background-color: #F4E06D;
-    border: 0.25vw solid #FF7396;
-    border-radius: 2vw;
+    color: #f0f0f0;
+    background-color: #AB46D2;
+    border: 0.25vw solid #2679e6;
+    border-radius: 30px;
 }
 
 .ExhibitHeading {
     font-weight: bold;
-    font-size: 1.75vw;
+    font-size: 17px;
 }
 
 .ExhibitContent {
-    margin: 0.5vw;
-    padding: 1vw 1vw 1vw 1vw;
+    margin: 5px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
-    font-size: 1.75vw;
-    color: #C499BA;
-    background-color: #80e5ff;
-    border: 0.25vw solid #FF7396;
-    border-radius: 2vw;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #55D8C1;
+    border: 2px solid #2679e6;
+    border-radius: 20px;
 }
