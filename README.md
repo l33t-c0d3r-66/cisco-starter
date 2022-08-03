@@ -30,3 +30,6 @@
 <li> https://en.wikipedia.org/wiki/Unix_time
 <li> https://blog.stackpath.com/latency/
 <li> https://www.scrum.org/resources/what-is-a-sprint-review
+
+## Screenshots:
+<img src="https://github.com/l33t-c0d3r-66/cisco-starter/blob/main/screenshot/ss.PNG">
