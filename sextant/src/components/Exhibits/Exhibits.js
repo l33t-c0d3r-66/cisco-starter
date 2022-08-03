@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import cssClasses from './Exhibits.module.css';
 
-class Exhibit extends Component {
-    render() {
-        return (
-            <div className={cssClasses.Exhibit}>
-                <h2 className={cssClasses.ExhibitHeading}>{this.props.name}</h2>
-                <div className={cssClasses.ExhibitContent}>
-                    {this.props.children}
-                </div>
+const Exhibit = (props) => {
+    return (
+        <div className={cssClasses.Exhibit}>
+            <h2 className={cssClasses.ExhibitHeading}>{props.name}</h2>
+            <div className={cssClasses.ExhibitContent}>
+                {props.children}
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default Exhibit;

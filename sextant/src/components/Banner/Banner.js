@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import cssClasses from './Banner.module.css';
-
-class Banner extends Component {
-    render() {
-        return (
-            <div className={cssClasses.Banner}>
-                <h1>{this.props.bannerText}</h1>
-            </div>
-        );
-    }
+const Banner = (props) => {
+    return (
+        <div className={cssClasses.Banner}>
+            <h1>{props.bannerText}</h1>
+        </div>
+    );
 }
 
 export default Banner;

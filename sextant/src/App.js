@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <Banner bannerText="SEXTANT" />
       <Exhibit name="This is an Exhibit 1 Heading">This is Exhibit Content</Exhibit>
-
     </div>
 
   );
